@@ -1,0 +1,210 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+
+p {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    background-color: rgba(29, 29, 29, 0.521);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+   
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgb(196, 196, 196);
+    color: honeydew;
+    background-image: url("../istockphoto-1303311187-612x612.jpg");
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.column-3 {
+    width: 32.5%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-nav {
+    width: 15;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+.column-75 {
+    width: 80%;
+    padding-left: 15%;
+    padding-left: 15%;
+   
+}
+
+.column-news {
+    width:15%;
+    float:right;
+    padding-top: 3%;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+/* clases web */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#img-1 {
+    height: 50vh;
+    background-image: url("../zapatillas-ropa-y-accesorios-nike-para-hombre.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+}
+
+#img-2 {
+    height: 50vh;
+    background-image: url("../cómo-escoger-el-sujetador-deportivo-adecuado.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+}
+
+#img-3 {
+    height: 50vh;
+    background-image: url("../moda-deportiva-nino-zapatillas-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+}
+#img-4{
+    background-image: url("../nike-blazer-on-feet.jpg");
+height: 50vh;
+background-size: cover;
+background-position: center;
+width: 50%;
+
+}
+
+article {
+    background-color: rgba(0, 0, 0, 0.521);
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#prefooter {
+    background-color: #272626;
+    color: whitesmoke;
+}
+
+footer {
+    background-image: url("../css/images.png");
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+
+/* clases auxiliares */
+.align {
+    text-align: center;
+}
+
+.padding-s {
+    padding: 3%;
+}
+
+.padding-m {
+    padding: 6%;
+}
+
+.back-white {
+    background-color: rgb(61, 54, 54);
+    border-top: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+
+
+@media only screen and (max-width: 700px) {
+    /*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    .column-nav {
+        width: 100%;
+    }
+    .column-75 {
+        width: 100%;
+    }
+}
