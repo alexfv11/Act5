@@ -131,13 +131,13 @@ body {
 
 #img-3 {
     height: 50vh;
-    background-image: url("\moda-deportiva-nino-zapatillas-mobile");
+    background-image: url("\moda-deportiva-nino-zapatillas-mobile.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 2%;
 }
 #img-4{
-    background-image: url("../nike-blazer-on-feet.jpg");
+    background-image: url("\nike-blazer-on-feet.jpg");
 height: 50vh;
 background-size: cover;
 background-position: center;
